@@ -1,0 +1,407 @@
+--------------------
+This module covers:
+--------------------
+
+- Data Breach Investigations Report
+- Essential Terminology
+- Elements of Information Security
+- Top Information Security Attack Vectors
+- Information Security Threats Hacking vs. Ethical Hacking 
+- Effects of Hacking on Business 
+- Who Is a Hacker?
+- Hacking Phases
+- Types of Attacks on a System
+- Why Ethical Hacking Is Necessary 
+- Skills of an Ethical Hacker
+- Incident Management Process 
+- Types of Security Policies 
+- Vulnerability Research
+- What Is Penetration Testing?
+
+---------------------
+INFORMATION SECURITY
+---------------------
+
+Information security refers to protecting or safeguarding any kind of sensitive information and information systems from:
+
+	- Unauthorized access, 
+	- Disclosure, 
+	- Alteration, 
+	- Disruption, 
+	- Destruction.
+
+
+Information Security
+
+Information security refers to protecting or safeguarding any kind of sensitive information and information systems from unauthorized access, disclosure, alteration, disruption, and destruction. 
+information is the critical resource to be secured. 
+
+Terminology
+-----------
+- Hack Value 
+
+It is the notion among hackers that something is worth doing or is interesting.
+
+- Target of Evaluation 
+is an IT system, product, or component that is identified / subjected to a required security evaluation. This kind of evaluation helps the evaluator understand the functioning, technology, and vulnerabilities of a particular system or product. 
+
+- Daisy Chaining 
+Hackers who get away with database theft usually complete their task, then backtrack to cover their tracks by destroying logs, etc. 
+
+-Exploit 
+A defined way to breach the security of an IT system through vulnerability 
+
+- Vulnerability 
+is a weakness in design or an im plem entation error that can lead to an unexpected and undesirable event compromising the security of the system. In simple words, a vulnerability is loop hole, limitation, or weakness that becomes a source for an attacker to enter into the system by bypassing various user authentications. 
+
+- Zero-Day Attack 
+An attack that exploits computer application vulnerabilities before the software developer releases a patch for the vulnerability 
+
+- ElementsofInformationSecurity 
+"A state of well-being of information and infrastructure in which the possibility of theft, tampering, and disruption of information and services is kept low or tolerable." It relies on the five major elements of: confidentiality, integrity, availability, authenticity, and non-repudiation. 
+
+- Confidentiality 
+is the assurance that the information is accessible only to those authorized to have access. 
+
+- Integrity
+Integrity is the trustworthiness of data or resources in terms of preventing improper and unauthorized changes, 
+
+- Availability
+is the assurance that the systems responsible for delivering, storing, and processing information are accessible when required by authorized users. 
+
+- Authenticity 
+Refers to the characteristic of a communication, document, or any data that ensures the quality of being genuine or not corrupted from the original. 
+The major roles of authentication include confirming that the user is who he or she claims to be and ensuring the message is authentic and not altered or forged. Biometrics, smart cards, and digital certificates are used to ensure authenticity of data, transactions, communications, or documents. 
+Non-repudiation 
+Refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. 
+
+Top Information Security Attack Vectors 
+An attack vector is a path or means by which an attacker gains access to an information system to perform malicious activities. This attack vector enables an attacker to take advantage of the vulnerabilities present in the information system in order to carry out a particular attack. 
+The following are the possible top attack vectors through which attackers can attack information systems: 
+•	Virtualization and Cloud Computing
+•	 Organized Cyber Crime
+•	Unpatched Software
+•	Targeted Malware 
+•	Social Networking
+•	Insider Threats 
+•	Botnets
+•	Lack of Cyber Security Professionals
+•	Network Applications
+•	Inadequate Security Policies
+•	Mobile Device Security
+•	Compliance with Govt. 
+•	Laws and Regulations
+•	Complexity of Computer Infrastructure
+•	Hacktivism 
+
+
+
+Motives,Goals,andObjectivesofInformation —-ElSecurityAttacks 
+Attackers generally have motives or goals or objectives behind performing information security attacks. It may be to disrupt the business continuity of the target organization, to steal valuable information, for the sake of curiosity, or even to take revenge on target organization. Therefore, these motives or goals depend on the attacker's state of mind.
+Inform ation Security Threats
+
+Information security threats are broadly classified into three categories, as follows: 
+•	NaturalThreats 
+o	Natural disasters 
+o	 Floods
+
+o	 Earthquakes
+
+o	 Hurricanes 
+
+You can implement a few safeguards against natural disasters by adopting disaster recovery plans and contingency plans. 
+
+•	PhysicalSecurityThreats 
+o	Loss or damage of system resources 
+o	Physical intrusion 
+o	Sabotage, espionage and errors 
+
+•	HumanThreats
+(attacks performed by both insiders and outsiders).
+o	Hackers 
+o	Insiders 
+o	Social engineering 
+o	Lack of knowledge and awareness 
+
+Insider attackers can be the biggest threat to information system as they may know the security posture of the information system.
+Human threats can be further classified into three types, as follows: 
+•	Network Threats
+•	HostThreats 
+•	Application Threats 
+
+•	Network Threats. is defined as the collection of computers and other hardware connected by communication channels to share resources and information. 
+o	Information gathering
+o	Sniffing and eavesdropping
+o	Spoofing
+o	Session hijacking and man-in-the-middle attacks
+o	SQL injection
+o	ARP Poisoning
+o	Password-based attacks 
+o	Denial of service attack
+o	Compromised-key attack 
+
+•	HostThreats. are directed at a particular system on which valuable information resides.
+o	Malware attacks
+o	Target Footprinting 
+o	Password attacks
+o	Denial of service attacks 
+o	Arbitrary code execution 
+o	Unauthorized access
+o	 Privilege escalation 
+o	Back door Attacks 
+o	Physical security threats
+
+•	Application Threats
+o	Data/Input validation
+o	Authentication and Authorization attacks
+o	Configuration management
+o	Information disclosure
+o	Session management issues
+o	Buffer overflow issues
+o	Cryptography attacks
+o	Parameter manipulation
+o	Improper error handling and exception management
+o	Auditing and logging issues
+
+Information Warfare 
+The term information warfare or InfoWar refers to the use of information and communication technologies (ICT) to take competitive advantages over an opponent 
+Defensive Information Warfare
+It refers to all strategies and actions to defend against attacks on ICT assets. 
+•	Prevention 
+•	Deterrence 
+•	Alerts 
+•	Detection 
+•	Emergency 
+•	Preparedness 
+•	Response 
+
+Offensive Information Warfare
+It refers to information warfare that involves attacks against ICT assets of an opponent. 
+•	Web Application Attacks
+•	Web Server Attacks
+•	Malware Attacks.
+•	MITM attacks.
+•	System Hacking.
+IPv6 Security Threats 
+
+Compared to IPv4, IPv6 has an improved security mechanism that assures a higher level of security and confidentiality for the information transferred over a network. However, IPv6 is still vulnerable. It still possesses inform ation security threats that include: 
+•	Auto Configuration Threats 
+•	Unavailability Reputation-based Protection 
+•	Incompatibility of Logging Systems 
+•	Rate Limiting Problem 
+
+
+•	Auto Configuration Threats 
+IPv6 enables auto-configuration of IP networks, which may leave user vulnerable to attacks if the network is not configured properly and securely from the beginning. 
+•	Unavailability Reputation-based Protection 
+Current security solutions use the reputation of IP addresses to filter out known sources of malware; vendors will take time to develop reputation-based protection for IPv6. 
+•	Incompatibility of Logging Systems 
+IPv6 uses 128-bit addresses, which are stored as a 39-digit string, whereas IPv4 addresses are stored in a 15-character field; logging solutions designed for IPv4 may not work on IPv6-based networks. 
+•	Rate Limiting Problem 
+Administrators use a rate limiting strategy to slow down the automated attack tool; however, it is impractical to rate limit at the 128-bit address level. 
+•	Default IPv6 Activation 
+IPv6 may be activated without the administrator's knowledge, which will leave IPv4- based security controls ineffective. 
+•	Complexity of network management tasks
+Administrators may adopt easy-to-remember addresses (: :10,: :20,: :food, c5co or simply IPv4 last octet for dual stack) leading to a potential vulnerability. 
+•	Complexity in Vulnerability Assessment 
+IPv6 s 128-bit address space makes active scanning of infrastructure for unauthorized or vulnerable systems more complex. 
+•	Overloading of Perimeter Security Controls 
+IPv6 has a 40-byte fixed header with an add-on "extension headers" that may be chained, which requires complex processing by various security controls systems such as routers, security gateways, firewalls, and IDS. 
+•	IPv4 to IPv6 Translation Issues 
+
+Translating IPv4 traffic to IPv6 may result in poor implementation and may provide a potential attack vector. 
+
+•	Security Information and Event Management (SIEM) Problems 
+Every IPv6 host can have multiple IPv6 addresses simultaneously, which leads to complexity of log or event correlation. 
+•	Denial-of-service (DOS) 
+Overloading of network security and control devices can significantly reduce the availability threshold of network resources, leading to DoS attacks. 
+•	Trespassing 
+IPv6's advanced network discovery features can be exploited by attackers who can traverse through your network and access the restricted resources. 
+
+Hacking vs. Ethical Hacking 
+Can be differentiated on the basis of the intentions of the people who are performing hacking activity. 
+•	Hacking 
+Hacking refers to exploiting system vulnerabilities and compromising security controls to gain unauthorized or inappropriate access to the system resources. It involves modifying system or application features to achieve a goal outside of the creator's original purpose. 
+•	Ethical Hacking 
+Ethical hacking involves the use of hacking tools, tricks, and techniques to identify vulnerabilities so as to ensure system security. It focuses on simulating techniques used by attackers to verify the existence of exploitable vulnerabilities in the system security. 
+Who Is a Hacker? 
+A hacker is a person who illegally breaks into a system or network without any authorization to destroy, steal sensitive data, or perform malicious attacks. 
+Hackers may be motivated by a multitude of reasons: 
+•	Intelligent individuals with excellent computer skills, with the ability to create and explore the computer's software and hardware.
+•	For some hackers, hacking is a hobby to see how many computers or networks they can compromise.
+•	Their intention can either be to gain knowledge or to poke around doing illegal things.
+•	Some hack with malicious intent, such as stealing business data, credit card information, social security numbers, email passwords, etc. 
+
+
+
+
+Hacker Classes
+
+Hackers are mainly divided into eight classes: 
+•	Black hats
+•	WhiteHats 
+•	GrayHats 
+•	SuicideHackers 
+•	ScriptKiddies 
+•	SpyHackers 
+•	CyberTerrorists 
+•	State Sponsored Hackers 
+
+•	Black hats 
+
+Are individuals with extraordinary computing skills, resorting to malicious or destructive activities and are also known as crackers. 
+
+•	White Hats 
+
+White hats are individuals who possess hacking skills and use them for defensive purposes; they are also known as security analysts. 
+
+•	Gray Hats 
+Are the individuals who work both offensively and defensively at various times. Gray hats fall between white and black hats. 
+•	Suicide Hackers 
+Suicide hackers are individuals who aim to bring down critical infrastructure for a "cause" and are not worried about facing 30 years in jail for their actions. 
+•	Script Kiddies 
+Are the unskilled hackers who compromise systems by running scripts, tools, and software developed by real hackers. They utilize small, easy-to-use programs or scripts as well as distinguished techniques to find and exploit the vulnerabilities of a machine. 
+•	Spy Hackers 
+Are individuals who are employed by an organization to penetrate and gain trade secrets of the competitor. These insiders can take advantage of the privileges they have to hack a system or network. 
+•	Cyber Terrorists 
+Could be people, organized groups formed by terrorist organizations, that have a wide range of skills, motivated by religious or political beliefs, to create fear by large-scale disruption of computer networks. 
+•	State Sponsored Hackers 
+Are individuals employed by the government to penetrate and gain top-secret information and to damage information systems of other governments. 
+Hacktivism 
+Hacktivism is an act of promoting a political agenda by hacking, especially by defacing or disabling websites. The person who does these things is known as a hacktivist. 
+•	Hacktivism thrives in an environment where information is easily accessible.
+•	It aims to send a message through hacking activities and gain visibility for a cause. 
+•	Common targets include government agencies, multinational corporations, or any other entity perceived as "bad" or "wrong" by these groups or individuals. 
+•	Hacktivism is motivated by revenge, political or social reasons, ideology, vandalism, protest, and a desire to humiliate victims. 
+
+Hacking Phases 
+•	Reconnaissance.
+•	Scanning
+•	Gaining Access 
+•	Maintaining Access 
+•	Clearing Tracks 
+
+- Reconnaissance 
+Refers to the preparatory phase where an attacker gathers as much information as possible about the target prior to launching the attack. 
+
+This phase may also involve 
+•	Target organization's clients.
+•	Employees.
+•	Operations.
+•	Systems.
+•	Network scanning, either external or internal. 
+
+This is the phase that allows the potential attacker to strategize his or her attack. 
+
+Part of this reconnaissance may involve "social engineering." 
+
+Another reconnaissance technique is "dumpster diving." 
+
+Dumpster Diving may provide them with even more sensitive information such as:
+•	Usernames.
+•	Passwords.
+•	Credit card statements.
+•	Bank statements.
+•	ATM slips.
+•	Social security numbers.
+•	Telephone numbers.
+
+
+Reconnaissance Types 
+Reconnaissance technique can be categorized broadly into active and passive reconnaissance.
+•	Passive reconnaissance techniques.
+The attacker does not interact with the system directly. The attacker uses publicly available information, social engineering, and dumpster diving as a means of gathering information. 
+•	Active reconnaissance techniques.
+The attacker tries to interact directly with the system by using tools to detect. 
+•	Open ports.
+•	Accessible hosts.
+•	Router locations.
+•	Network mapping.
+•	Details of operating systems.
+•	Applications. 
+
+Scanning 
+The attacker uses the details gathered during reconnaissance to identify specific vulnerabilities. 
+Often attackers use automated tools such as network/host scanners and war dialers to locate systems and attempt to discover vulnerabilities. 
+
+Gaining Access 
+Is the most important phase of an attack in terms of potential damage. 
+Gaining access refers to the point where the attacker obtains access to the operating system or applications on the computer or network. 
+The attacker can gain access at the 
+•	Operating system level.
+•	Application level.
+•	Network level.
+Factors that influence the chances of an attacker gaining access into a target system include 
+•	The architecture and configuration of the target system,
+•	The skill level of the perpetrator.
+•	Initial level of access obtained. 
+
+
+Maintaining Access
+Refers to the phase when the attacker tries to retain his or her ownership of the system.
+Attackers may prevent the system from being owned by other attackers by securing their exclusive access with Backdoors,
+RootKits, or Trojans. 
+Attackers can upload, download, or manipulate data, applications, and configurations on the owned system.
+Attackers use the compromised system to launch further attacks.
+Attackers can use Trojan horses to transfer user names, passwords, and even credit card information stored on the system. 
+Once an attacker gains access to the target system, the attacker can choose to use both the system and its resources and further use the system as a launch pad to scan and exploit other systems, or to keep a low profile and continue exploiting the system. 
+ 
+ClearingTracks 
+Refers to the activities carried out by an attacker to hide malicious acts.
+The attacker overwrites the server, system, and application logs to avoid suspicion.
+The attacker's
+intentions include: Continuing access to the victim's system. remaining unnoticed and uncaught, deleting evidence that might lead to his prosecution.
+An attacker would like to destroy evidence of his or her presence and activities for various reasons such as maintaining access and evading punitive action. 
+Techniques include steganography and tunneling. 
+
+--------------
+REPORT CENTER
+--------------
+
+- InternetCrime Current Report(IC3). is a partnership among the Federal Bureau of Investigation (FBI), the National White Collar Crime Center (NW3C), and the Bureau of Justice Assistance (BJA). 
+	-  http://www.ic3.gov
+
+- Data Breach Investigations Report (Verizon Business). shows the types of hacking by percent of breaches and percent of records.
+	- http://www.verizonbusiness.com
+
+-  Symantec 2012 State of Information survey.
+--------
+In Year 
+--------
+
+- 2005, there were 231,493 crime complaints.
+- 2009, complaints drastically increased to 336,655. 
+- information costs businesses worldwide $1.1 trillion annually.
+
+---------
+ZERO DAYS
+
+The typical zero-day attack, by definition, exploits software flaws before they are publicly disclosed. It lasts on average 312 days. with some lasting as long as two and a half years.
+
+
+"Zero-day attacks are difficult to prevent because they exploit unknown vulnerabilities, for which there are no patches and no antivirus or intrusion-detection signatures,"
+
+
+
+
+- MALWARES
+
+Stuxnet
+
+Conficker
+
+Conficker exploiting the vulnerability CVE-2008-4250 managed to infect approximately 370,000 machines without being detected over more than two months,".
+
+- rootkits gain access at the operating system level while a Trojan horse gains access at the application level.
+
+===========
+ Types of Hackers
+===========
+
+White Hats :: The individuals or experts who perform ethical hacking. They perform hacking in ethical ways, without causing any damage to the computer system, thereby increasing the security perimeter of an organization.
+
+
+
+
+
+
